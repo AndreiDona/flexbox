@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-      <style>
-      
-      
-             .ace {
+    <style>
+        .ace {
 
 
-        width: 20px;
-        height: 20px;
-        margin: 10px;
+            width: 20px;
+            height: 20px;
+            margin: 10px;
 
-    }    
+        }
 
-           .card {
+        .card {
             display: flex;
             flex-direction: row;
             justify-content: center;
@@ -27,13 +26,13 @@
             border: 2px solid black;
             width: 100px;
             height: 150px;
-            
+
         }
-        
 
-       
 
-        
+
+
+
 
         .X {
             position: relative;
@@ -43,17 +42,19 @@
             justify-content: space-between;
             align-items: center;
         }
-        
+
         #c2 {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
             align-items: center;
+            position: relative;
 
 
 
         }
-        #c3  {
+
+        #c3 {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -64,7 +65,7 @@
         }
 
 
-.Y {       
+        .Y {
             position: relative;
             top: 80px;
             display: flex;
@@ -72,206 +73,306 @@
             justify-content: space-between;
             align-items: center;
         }
-        
-        
-         .content1 {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-
-    }
-
-    .content2 {
-        display: flex;
-        flex-direction: row;
-        justify-content:center;
-        align-items: center;
-
-    }
-    
-    
-      .content3 {
-       display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-    .content4 {
-    
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
-
-    }
 
 
-  .content5 {
-    
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
+        .content1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
 
-    }
+        }
+
+        .content2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+        }
 
 
+        .content3 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
 
-      </style>
+        }
+
+        .content4 {
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+
+        }
+
+
+        .content5 {
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+
+        }
+
+        #A {
+
+            position: absolute;
+            top: 10px;
+            left: 10px;
+
+        }
+
+        #Ajos {
+
+            position: absolute;
+            top: 140px;
+            left: 95px;
+        }
+
+        #cifra2 {
+
+            position: absolute;
+            left: 10px;
+            top: 10px;
+
+        }
+
+        #cifra2jos {
+
+            position: absolute;
+            top: 140px;
+            left: 95px;
+
+        }
+
+        #cifra3 {
+
+            position: absolute;
+            left: 10px;
+            top: 10px;
+
+        }
+
+        #cifra3jos {
+
+            position: absolute;
+            top: 140px;
+            left: 95px;
+
+        }
+
+        #cifra4 {
+
+            position: absolute;
+            left: 10px;
+            top: 10px;
+
+        }
+
+        #cifra4jos {
+
+            position: absolute;
+            top: 140px;
+            left: 95px;
+
+        }
+
+        #cifra5 {
+
+            position: absolute;
+            left: -5px;
+            top: -10px;
+
+        }
+
+        #cifra5jos {
+
+            position: absolute;
+            top: 35px;
+            left: 80px;
+
+        }
+
+        #cifra6 {
+
+            position: absolute;
+            left: -5px;
+            top: -10px;
+
+        }
+
+        #cifra6jos {
+
+            position: absolute;
+            top: 35px;
+            left: 80px;
+
+        }
+    </style>
 
 
 
 </head>
+
 <body>
     <div class="X">
-        <div class="card">
-            
-            
-            
 
-            <img class="ace" src="https://icon2.cleanpng.com/20180408/bcw/kisspng-spade-shovel-clip-art-ace-card-5ac9db9e799298.984891301523178398498.jpg"/>
+        <div class="card">
+            <div id="A">A</div>
+            <img class="ace"
+                src="https://icon2.cleanpng.com/20180408/bcw/kisspng-spade-shovel-clip-art-ace-card-5ac9db9e799298.984891301523178398498.jpg" />
+            <div id="Ajos">A</div>
         </div>
+
+
 
         <div id="c2" class="card">
-            
-           
-            
-           <img class="ace" src="https://icon2.cleanpng.com/20180408/bcw/kisspng-spade-shovel-clip-art-ace-card-5ac9db9e799298.984891301523178398498.jpg"
-           />
+            <div id="cifra2">2</div>
+            <img class="ace"
+                src="https://icon2.cleanpng.com/20180408/bcw/kisspng-spade-shovel-clip-art-ace-card-5ac9db9e799298.984891301523178398498.jpg" />
 
-           <img class="ace" src="https://icon2.cleanpng.com/20180408/bcw/kisspng-spade-shovel-clip-art-ace-card-5ac9db9e799298.984891301523178398498.jpg"
-            />
-
+            <img class="ace"
+                src="https://icon2.cleanpng.com/20180408/bcw/kisspng-spade-shovel-clip-art-ace-card-5ac9db9e799298.984891301523178398498.jpg" />
+            <div id="cifra2jos">2</div>
         </div>
 
-        <div id="c3" class="card" >
-           
-        
-            <img class="ace" src="https://icon2.cleanpng.com/20180408/bcw/kisspng-spade-shovel-clip-art-ace-card-5ac9db9e799298.984891301523178398498.jpg"
-             />
-
-            <img class="ace" src="https://icon2.cleanpng.com/20180408/bcw/kisspng-spade-shovel-clip-art-ace-card-5ac9db9e799298.984891301523178398498.jpg"
-             />
 
 
-            <img class="ace" src="https://icon2.cleanpng.com/20180408/bcw/kisspng-spade-shovel-clip-art-ace-card-5ac9db9e799298.984891301523178398498.jpg"
-             />
+        <div id="c3" class="card" style="position: relative;">
+            <div id="cifra3">3</div>
+            <img class="ace"
+                src="https://icon2.cleanpng.com/20180408/bcw/kisspng-spade-shovel-clip-art-ace-card-5ac9db9e799298.984891301523178398498.jpg" />
+
+            <img class="ace"
+                src="https://icon2.cleanpng.com/20180408/bcw/kisspng-spade-shovel-clip-art-ace-card-5ac9db9e799298.984891301523178398498.jpg" />
 
 
+            <img class="ace"
+                src="https://icon2.cleanpng.com/20180408/bcw/kisspng-spade-shovel-clip-art-ace-card-5ac9db9e799298.984891301523178398498.jpg" />
+
+            <div id="cifra3jos">3</div>
         </div>
 
     </div>
-    
-    
+
+
+
+
     <div class="Y">
-    <div class="card">
+        <div class="card">
             <div>
-             <div class="content2">
-                <img class="ace"
-                    src="https://icon2.cleanpng.com/20180408/bcw/kisspng-spade-shovel-clip-art-ace-card-5ac9db9e799298.984891301523178398498.jpg"/>
-                
+                <div class="content2">
+                    <div id="cifra4">4</div>
+                    <img class="ace"
+                        src="https://icon2.cleanpng.com/20180408/bcw/kisspng-spade-shovel-clip-art-ace-card-5ac9db9e799298.984891301523178398498.jpg" />
+
+                </div>
+                <div class="content1">
+                    <img class="ace"
+                        src="https://icon2.cleanpng.com/20180408/bcw/kisspng-spade-shovel-clip-art-ace-card-5ac9db9e799298.984891301523178398498.jpg" />
+
+                    <img class="ace"
+                        src="https://icon2.cleanpng.com/20180408/bcw/kisspng-spade-shovel-clip-art-ace-card-5ac9db9e799298.984891301523178398498.jpg" />
+
+                </div>
+                <div class="content2">
+                    <img class="ace"
+                        src="https://icon2.cleanpng.com/20180408/bcw/kisspng-spade-shovel-clip-art-ace-card-5ac9db9e799298.984891301523178398498.jpg" />
+                    <div id="cifra4jos">4</div>
+                </div>
+
             </div>
-            <div class="content1">
-                <img class="ace"
-                    src="https://icon2.cleanpng.com/20180408/bcw/kisspng-spade-shovel-clip-art-ace-card-5ac9db9e799298.984891301523178398498.jpg"/>
-                
-                <img class="ace"
-                    src="https://icon2.cleanpng.com/20180408/bcw/kisspng-spade-shovel-clip-art-ace-card-5ac9db9e799298.984891301523178398498.jpg"/>
-                
-            </div>
-            <div class="content2">
-                <img class="ace"
-                    src="https://icon2.cleanpng.com/20180408/bcw/kisspng-spade-shovel-clip-art-ace-card-5ac9db9e799298.984891301523178398498.jpg"/>
-                
-            </div>
-            
-</div>
-           
+
         </div>
+
+
+
 
         <div class="card">
             <div>
-           
-          <div class="content4">
-                <img class="ace"
-                    src="https://icon2.cleanpng.com/20180408/bcw/kisspng-spade-shovel-clip-art-ace-card-5ac9db9e799298.984891301523178398498.jpg">
-                </img>
-                  <img class="ace"
-                    src="https://icon2.cleanpng.com/20180408/bcw/kisspng-spade-shovel-clip-art-ace-card-5ac9db9e799298.984891301523178398498.jpg">
-                </img>
-            </div>
-            <div class="content3">
-                <img class="ace"
-                    src="https://icon2.cleanpng.com/20180408/bcw/kisspng-spade-shovel-clip-art-ace-card-5ac9db9e799298.984891301523178398498.jpg">
-                </img>
-               
-                    
-            </div>
-            <div class="content4">
-                <img class="ace"
-                    src="https://icon2.cleanpng.com/20180408/bcw/kisspng-spade-shovel-clip-art-ace-card-5ac9db9e799298.984891301523178398498.jpg">
-                </img>
-                  <img class="ace"
-                    src="https://icon2.cleanpng.com/20180408/bcw/kisspng-spade-shovel-clip-art-ace-card-5ac9db9e799298.984891301523178398498.jpg">
-                </img>
-           
-        
-            </div>   
-           
 
-         </div> 
+                <div class="content4" style="position: relative;">
+                    <div id="cifra5">5</div>
+                    <img class="ace"
+                        src="https://icon2.cleanpng.com/20180408/bcw/kisspng-spade-shovel-clip-art-ace-card-5ac9db9e799298.984891301523178398498.jpg">
+                    </img>
+                    <img class="ace"
+                        src="https://icon2.cleanpng.com/20180408/bcw/kisspng-spade-shovel-clip-art-ace-card-5ac9db9e799298.984891301523178398498.jpg">
+                    </img>
+                </div>
+                <div class="content3">
+                    <img class="ace"
+                        src="https://icon2.cleanpng.com/20180408/bcw/kisspng-spade-shovel-clip-art-ace-card-5ac9db9e799298.984891301523178398498.jpg">
+                    </img>
+                </div>
+                <div class="content4" style="position: relative;">
+                    <img class="ace"
+                        src="https://icon2.cleanpng.com/20180408/bcw/kisspng-spade-shovel-clip-art-ace-card-5ac9db9e799298.984891301523178398498.jpg">
+                    </img>
+                    <img class="ace"
+                        src="https://icon2.cleanpng.com/20180408/bcw/kisspng-spade-shovel-clip-art-ace-card-5ac9db9e799298.984891301523178398498.jpg">
+                    </img>
+                    <div id="cifra5jos">5</div>
+
+                </div>
+
+
+            </div>
 
         </div>
 
-        <div class="card" >
-           
-        <div>
-           <div class="content5">
-                <img class="ace"
-                    src="https://icon2.cleanpng.com/20180408/bcw/kisspng-spade-shovel-clip-art-ace-card-5ac9db9e799298.984891301523178398498.jpg">
-                </img>
-                  <img class="ace"
-                    src="https://icon2.cleanpng.com/20180408/bcw/kisspng-spade-shovel-clip-art-ace-card-5ac9db9e799298.984891301523178398498.jpg">
-                </img>
-            </div>
-           
-            <div class="content5">
-                <img class="ace"
-                    src="https://icon2.cleanpng.com/20180408/bcw/kisspng-spade-shovel-clip-art-ace-card-5ac9db9e799298.984891301523178398498.jpg">
-                </img>
-                  <img class="ace"
-                    src="https://icon2.cleanpng.com/20180408/bcw/kisspng-spade-shovel-clip-art-ace-card-5ac9db9e799298.984891301523178398498.jpg">
-                </img>
-             
-            </div>
-            
-           
-             <div class="content5">
-                <img class="ace"
-                    src="https://icon2.cleanpng.com/20180408/bcw/kisspng-spade-shovel-clip-art-ace-card-5ac9db9e799298.984891301523178398498.jpg">
-                </img>
-                  <img class="ace"
-                    src="https://icon2.cleanpng.com/20180408/bcw/kisspng-spade-shovel-clip-art-ace-card-5ac9db9e799298.984891301523178398498.jpg">
-                </img>
-           
-        
-            
-            </div>
-             
+        <div class="card">
+
+            <div>
+                <div class="content5" style="position: relative;">
+                    <div id="cifra6">6</div>
+                    <img class="ace"
+                        src="https://icon2.cleanpng.com/20180408/bcw/kisspng-spade-shovel-clip-art-ace-card-5ac9db9e799298.984891301523178398498.jpg">
+                    </img>
+                    <img class="ace"
+                        src="https://icon2.cleanpng.com/20180408/bcw/kisspng-spade-shovel-clip-art-ace-card-5ac9db9e799298.984891301523178398498.jpg">
+                    </img>
+                </div>
+
+                <div class="content5">
+                    <img class="ace"
+                        src="https://icon2.cleanpng.com/20180408/bcw/kisspng-spade-shovel-clip-art-ace-card-5ac9db9e799298.984891301523178398498.jpg">
+                    </img>
+                    <img class="ace"
+                        src="https://icon2.cleanpng.com/20180408/bcw/kisspng-spade-shovel-clip-art-ace-card-5ac9db9e799298.984891301523178398498.jpg">
+                    </img>
+
+                </div>
+
+
+                <div class="content5" style="position: relative;">
+                    <img class="ace"
+                        src="https://icon2.cleanpng.com/20180408/bcw/kisspng-spade-shovel-clip-art-ace-card-5ac9db9e799298.984891301523178398498.jpg">
+                    </img>
+                    <img class="ace"
+                        src="https://icon2.cleanpng.com/20180408/bcw/kisspng-spade-shovel-clip-art-ace-card-5ac9db9e799298.984891301523178398498.jpg">
+                    </img>
+
+                    <div id="cifra6jos">6</div>
+
+                </div>
+
             </div>
 
 
         </div>
 
     </div>
-    
-    
-   
-    
-    
+
+
+
+
+
 </body>
+
 </html>
-    
